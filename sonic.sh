@@ -61,7 +61,7 @@ const to = web3.Keypair.generate();
       );
     
       
-      const txCount = 100;
+      const txCount = 50;
       for (let i = 0; i < txCount; i++) {
       const signature = await web3.sendAndConfirmTransaction(
         connection,
